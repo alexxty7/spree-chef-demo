@@ -1,5 +1,13 @@
 DEPENDENCIES
   chef_hostname (~> 0.6.1)
+  sudo (~> 4.0.0)
+  swap_tuning (~> 0.2.0)
+  users (~> 5.3.1)
 
 GRAPH
   chef_hostname (0.6.1)
+  sudo (4.0.1)
+  swap (0.3.8)
+  swap_tuning (0.2.0)
+    swap (~> 0.3)
+  users (5.3.1)

@@ -1,7 +1,9 @@
 {
   "name": "example-development",
   "environment": "dev",
-  "run_list": [],
+  "run_list": [
+    "role[setup]"
+  ],
   "automatic": {
     "ipaddress": "54.211.25.55"
   }
