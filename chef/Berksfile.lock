@@ -1,0 +1,5 @@
+DEPENDENCIES
+  chef_hostname (~> 0.6.1)
+
+GRAPH
+  chef_hostname (0.6.1)
