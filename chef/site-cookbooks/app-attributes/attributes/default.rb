@@ -39,3 +39,8 @@ override['nodejs']['binary']['checksum'] = 'b7338f2b1588264c9591fef08246d72ceed6
 
 override['nginx']['source']['version'] = '1.13.7'
 override['nginx']['source']['checksum'] = 'beb732bc7da80948c43fd0bf94940a21a21b1c1ddfba0bd99a4b88e026220f5c'
+
+# Monit ------------------------------------------------------------------------
+
+override['monit']['username'] = 'sysadmin'
+override['monit']['password'] = 'sysadmin_password'

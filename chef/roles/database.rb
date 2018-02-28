@@ -1,4 +1,5 @@
 name 'database'
 description 'Database setup'
 
-run_list 'recipe[app-postgresql]'
+run_list 'recipe[app-postgresql]',
+         'recipe[app-monit::postgresql]'

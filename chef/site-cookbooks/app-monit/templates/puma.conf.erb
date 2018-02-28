@@ -1,0 +1,6 @@
+check process puma with pidfile <%= @project_root %>/shared/tmp/pids/puma.pid
+  start program = "/bin/su - <%= @deployer %> -lc 'source $HOME/.rvm/scripts/rvm && cd <%= @project_root %>/current && bundle exec puma -C <%= @project_root %>/shared/puma.rb -e <%= node.environment %> --daemon'"
+    with timeout 30 seconds
+  stop program  = "/bin/su - <%= @deployer %> -lc 'source $HOME/.rvm/scripts/rvm && cd <%= @project_root %>/current && bundle exec pumactl -P <%= @project_root %>/shared/tmp/pids/puma.pid stop'"
+    with timeout 30 seconds
+    
