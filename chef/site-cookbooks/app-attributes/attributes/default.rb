@@ -18,3 +18,8 @@ override['postgresql']['operator']['encrypted_password'] = 'md59d127ff383d595262
 
 override['locale']['lang'] = 'en_US.utf8'
 override['locale']['lc_all'] = node['locale']['lang']
+
+# Ruby ----------------------------------------------------------------------------------------------------------------
+
+override['ruby']['versions'] = ['2.4.2']
+override['ruby']['default'] = '2.4.2'
