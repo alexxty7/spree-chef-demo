@@ -2,6 +2,7 @@ DEPENDENCIES
   chef_hostname (~> 0.6.1)
   chef_rvm (~> 2.0.0)
   locale (~> 2.0.1)
+  nodejs (~> 5.0.0)
   postgresql_lwrp (~> 1.2.1)
   sudo (~> 4.0.0)
   swap_tuning (~> 0.2.0)
