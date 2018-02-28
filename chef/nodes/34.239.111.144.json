@@ -4,7 +4,8 @@
   "run_list": [
     "role[setup]",
     "role[database]",
-    "role[web]"
+    "role[web]",
+    "role[security]"
   ],
   "automatic": {
     "ipaddress": "34.239.111.144"
