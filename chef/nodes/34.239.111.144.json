@@ -3,7 +3,8 @@
   "environment": "dev",
   "run_list": [
     "role[setup]",
-    "role[database]"
+    "role[database]",
+    "role[web]"
   ],
   "automatic": {
     "ipaddress": "34.239.111.144"

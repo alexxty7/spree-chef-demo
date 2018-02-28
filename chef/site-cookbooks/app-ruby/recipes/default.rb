@@ -1,11 +1,11 @@
 deployer = node['deployer']
 
-execute 'add gpg2 key' do
+execute 'add gpg key' do
   environment ({
     'HOME' => "/home/#{deployer}",
     'USER' => deployer
   })
-  command 'command curl -sSL https://rvm.io/mpapis.asc | gpg2 --import -'
+  command 'command curl -sSL https://rvm.io/mpapis.asc | gpg --import -'
 end
 
 execute 'chown ~/.gnupg' do

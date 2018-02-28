@@ -31,3 +31,11 @@ override['ruby']['default'] = '2.4.2'
 
 override['nodejs']['version'] = '9.3.0'
 override['nodejs']['binary']['checksum'] = 'b7338f2b1588264c9591fef08246d72ceed664eb18f2556692b4679302bbe2a5'
+
+# Nginx ---------------------------------------------------------------------------------------------------------------
+
+# To obtain the checksum you can download the file and check it locally.
+# $ shasum -a 256 nginx-X.XX.XX.tar.gz
+
+override['nginx']['source']['version'] = '1.13.7'
+override['nginx']['source']['checksum'] = 'beb732bc7da80948c43fd0bf94940a21a21b1c1ddfba0bd99a4b88e026220f5c'
