@@ -5,6 +5,9 @@ DEPENDENCIES
   locale (~> 2.0.1)
   nodejs (~> 5.0.0)
   postgresql_lwrp (~> 1.2.1)
+  redis
+    git: git://github.com/phlipper/chef-redis.git
+    revision: 7476279fc9c8727f082b8d77b5e1922dc2ef437b
   sudo (~> 4.0.0)
   swap_tuning (~> 0.2.0)
   users (~> 5.3.1)
@@ -63,6 +66,8 @@ GRAPH
   python (1.4.6)
     build-essential (>= 0.0.0)
     yum-epel (>= 0.0.0)
+  redis (0.5.6)
+    apt (>= 0.0.0)
   seven_zip (2.0.2)
     windows (>= 1.2.2)
   sudo (4.0.1)
