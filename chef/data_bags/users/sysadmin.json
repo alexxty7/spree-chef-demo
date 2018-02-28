@@ -1,0 +1,9 @@
+{
+  "id": "sysadmin",
+  "password": "f62fee1b43f48bd0c1bf9b7d5b22f270",
+  "ssh_keys": [
+    "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC115Y8qvzuRoxUGN2d53OfDBcNerNM7dIjvDB1mQLNWdleRjO+KxjYwyj0TNJZnwJGviK0hqATovexJBZewt90wS4SroT4GgdIRI2Cd16cZOnUJinMhTtVMPDO3vMHe1N6caJHX1gmZMMDrCTlhffUEIM3RIdBXoHeHL1CmMvCuo2qFQlO48g4A72cERsrPXrllmSm39Z1YEf2RImB0groyu4tRIQusX+a0/QnMiZTmNHNgHuqZv0WJ4ODsvfTvXbkAcryLIakEfhY6RNmFgw+5bGDoLSut27g674aWZjRjIs/pk/WjxeeZp4PCMwqni1NWNSqHxSjL5+LqSorOOZ7BAFHDQrAruK8k07VgP0J3jvs2Pb3RWMEqYD5O9jyqJrYE/gHhnTU/KyMh4K3JTQpTAz4iw6hNn6Vt6WvZ/V/LLdV5Lf7wGA0nKVNTSggrExKvo721ZPpOtCdBlM6sMcpnR7ZmNIIixktg1rtuAan6UIaEwhzs2Rj/NFY5lm749NTHv5a8fLWSOuHS22rcTLWrFQ2UqHcq4q4knXN0EK9qnSj5ryx+YFh6EwtKZnWCXXZiRSl/6nyZC0G2YfOwWU8omi4F1P/IsjnwZbXDhmKZJsZz5dkmMSMN2NhEu9yslpEdKAehNVQx+aGeuC4QWP0s2VDGZ3gnOsBdr1cl8o26Q== alexxty7@gmail.com"
+  ],
+  "groups": ["sudo", "sysadmin", "www-data"],
+  "shell": "/bin/bash"
+}
