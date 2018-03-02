@@ -1,6 +1,6 @@
 {
-  "name": "example-development",
-  "environment": "dev",
+  "name": "spree-staging",
+  "environment": "staging",
   "run_list": [
     "role[setup]",
     "role[database]",
@@ -8,6 +8,6 @@
     "role[security]"
   ],
   "automatic": {
-    "ipaddress": "34.239.111.144"
+    "ipaddress": "107.22.65.62"
   }
 }
