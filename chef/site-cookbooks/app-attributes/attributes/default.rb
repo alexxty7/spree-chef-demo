@@ -6,7 +6,7 @@ default['operator'] = 'sysadmin' # It depends on users mentioned in data bags
 # Deploy -----------------------------------------------------------------------
 
 override['project']['name'] = 'project_name'
-override['project']['repository'] = 'git@github.com:user/project.git'
+override['project']['repository'] = 'git@github.com:alexxty7/spree-demo'
 
 # Postgresql -------------------------------------------------------------------
 
@@ -21,8 +21,8 @@ override['locale']['lc_all'] = node['locale']['lang']
 
 # Ruby ----------------------------------------------------------------------------------------------------------------
 
-override['ruby']['versions'] = ['2.4.2']
-override['ruby']['default'] = '2.4.2'
+override['ruby']['versions'] = ['2.5.0']
+override['ruby']['default'] = '2.5.0'
 
 # Node.js ----------------------------------------------------------------------
 

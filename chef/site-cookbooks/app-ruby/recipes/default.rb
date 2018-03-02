@@ -13,6 +13,11 @@ execute 'chown ~/.gnupg' do
   user 'root'
 end
 
+execute 'chown ~/.bundle' do
+  command "chown -R #{deployer}:#{deployer} /home/#{deployer}/.bundle"
+  user 'root'
+end
+
 chef_rvm 'install rubies' do
   rubies node['ruby']['versions']
   rvmrc(rvm_autoupdate_flag: 1)
